@@ -17,6 +17,12 @@ namespace SmartCourier.Pages
             _logger = logger;
         }
 
+        protected void LogInButton(object sender, EventArgs e)
+        {
+            string username = Request.Form["UserName"];
+            string password = Request.Form["Password"];
+        }
+
         public void OnGet()
         {
         }

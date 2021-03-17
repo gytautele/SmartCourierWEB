@@ -1,8 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "FNBxh3jOlXSzodzzmI75yLl/8wRxvz1MnB8rK/bzs1i9XdiO1spqGHv19yQKmRbD6gK5BDWZ59X9xsvp5XV3oQ==",
+  "dgSpecHash": "SfFsS4zSYuulR6eV6nrs+ZJFw0LjJnDgwakNHwIsYcv8AVvA674YNxrcvGZhe2zhUH/MBrHMjjjxLsw7RzRHJQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Andrius\\Desktop\\SmartCourierWEB\\SmartCourier\\SmartCourier.csproj",
+  "projectFilePath": "/Users/tomas.klevas/Desktop/SmartCourierWEB/SmartCourier/SmartCourier.csproj",
   "expectedPackageFiles": [],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file /Users/tomas.klevas/Desktop/SmartCourierWEB/SmartCourier/obj/project.nuget.cache : Unexpected character encountered while parsing value: <. Path '', line 0, position 0."
+    }
+  ]
 }

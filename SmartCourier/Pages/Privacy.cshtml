@@ -1,8 +1,8 @@
 ﻿@page
 @model PrivacyModel
-@{
-    ViewData["Title"] = "Login";
-}
+@{ ViewData["Title"] = "Login"; }
 <h1>@ViewData["Title"]</h1>
 
-<p>Use this page to detail your site's privacy policy.</p>
+<input type="text" name="UserName" placeholder="Enter your username" />
+<input type="password" name="Password" placeholder="Enter your password" />
+<input type="submit" value="Login" class="submit" onclick="LogInButton"/>
