@@ -15,11 +15,12 @@ namespace SmartCourier.Pages
         public IndexModel(ILogger<IndexModel> logger)
         {
             _logger = logger;
+            Database databaseObject = new Database();
         }
 
         public void OnGet()
         {
-
+            Database databaseObject = new Database();
         }
     }
 }

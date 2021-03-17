@@ -4,6 +4,7 @@ using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Data.SQLite;
 using System.Threading.Tasks;
 
 namespace SmartCourier.Pages
@@ -17,10 +18,12 @@ namespace SmartCourier.Pages
             _logger = logger;
         }
 
-        protected void LogInButton(object sender, EventArgs e)
+        public void LogInButton(object sender, EventArgs e)
         {
+            Database databaseObject = new Database();
             string username = Request.Form["UserName"];
             string password = Request.Form["Password"];
+
         }
 
         public void OnGet()

@@ -1,11 +1,10 @@
 ﻿<Properties StartupConfiguration="{8DACDEB6-3545-4859-A6BB-95B3972B321B}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Pages/Privacy.cshtml.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Pages/Index.cshtml.cs">
     <Files>
-      <File FileName="Pages/Shared/_Layout.cshtml" Line="15" Column="25" />
-      <File FileName="Pages/Index.cshtml" Line="8" Column="37" />
-      <File FileName="Pages/Privacy.cshtml" Line="8" Column="53" />
-      <File FileName="SmartCourier.csproj" Line="1" Column="1" />
-      <File FileName="Pages/Privacy.cshtml.cs" Line="21" Column="10" />
+      <File FileName="Pages/Privacy.cshtml.cs" Line="24" Column="56" />
+      <File FileName="Pages/Privacy.cshtml" Line="6" Column="24" />
+      <File FileName="Pages/Database.cs" Line="17" Column="13" />
+      <File FileName="Pages/Index.cshtml.cs" Line="18" Column="54" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -13,19 +12,18 @@
           <Node name="SmartCourier" expanded="True">
             <Node name="SmartCourier" expanded="True">
               <Node name="Pages" expanded="True">
-                <Node name="Index.cshtml" expanded="True" />
-                <Node name="Privacy.cshtml" expanded="True">
-                  <Node name="Privacy.cshtml.cs" selected="True" />
+                <Node name="Index.cshtml" expanded="True">
+                  <Node name="Index.cshtml.cs" selected="True" />
                 </Node>
+                <Node name="Privacy.cshtml" expanded="True" />
               </Node>
               <Node name="Properties" expanded="True" />
-              <Node name="wwwroot" expanded="True">
-                <Node name="css" expanded="True" />
-                <Node name="js" expanded="True" />
-              </Node>
             </Node>
           </Node>
         </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
