@@ -19,6 +19,8 @@ namespace SmartCourier.Pages
             System.Diagnostics.Debug.WriteLine("Paleido");
         }
 
+        
+
         public void LogInButton(object sender, EventArgs e)
         {
             System.Diagnostics.Debug.WriteLine("Funkcija");
@@ -40,4 +42,5 @@ namespace SmartCourier.Pages
         {
         }
     }
+
 }
