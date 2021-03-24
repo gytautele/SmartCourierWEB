@@ -40,7 +40,6 @@ namespace SmartCourier.Pages
 
         public void Button_Click()
         {
-            System.Diagnostics.Debug.WriteLine("eikit naxui visi");
         }
     }
 
