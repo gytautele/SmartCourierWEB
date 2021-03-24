@@ -16,13 +16,23 @@ namespace SmartCourier.Pages
         public PrivacyModel(ILogger<PrivacyModel> logger)
         {
             _logger = logger;
+            System.Diagnostics.Debug.WriteLine("Paleido");
         }
 
         public void LogInButton(object sender, EventArgs e)
         {
+            System.Diagnostics.Debug.WriteLine("Funkcija");
             Database databaseObject = new Database();
             string username = Request.Form["UserName"];
             string password = Request.Form["Password"];
+            if (databaseObject.LogIn(username, password))
+            {
+                System.Diagnostics.Debug.WriteLine("duombaze suveike");
+            }
+            else
+            {
+                System.Diagnostics.Debug.WriteLine("Nepraleido");
+            }
 
         }
 

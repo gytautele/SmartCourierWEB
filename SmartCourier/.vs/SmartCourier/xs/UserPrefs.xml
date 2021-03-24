@@ -1,10 +1,18 @@
 ﻿<Properties StartupConfiguration="{8DACDEB6-3545-4859-A6BB-95B3972B321B}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="Pages/Database.cs">
     <Files>
+<<<<<<< HEAD
+      <File FileName="Pages/Privacy.cshtml.cs" Line="16" Column="41" />
+      <File FileName="Pages/Privacy.cshtml" />
+      <File FileName="Pages/Database.cs" Line="13" Column="1" />
+      <File FileName="Pages/Index.cshtml.cs" />
+      <File FileName="Pages/Index.cshtml" />
+=======
       <File FileName="Pages/Privacy.cshtml.cs" Line="26" Column="1" />
       <File FileName="Pages/Privacy.cshtml" />
       <File FileName="Pages/Index.cshtml.cs" />
       <File FileName="Pages/Database.cs" Line="45" Column="98" />
+>>>>>>> main
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -13,6 +21,10 @@
             <Node name="SmartCourier" expanded="True">
               <Node name="Pages" expanded="True">
                 <Node name="Database.cs" selected="True" />
+<<<<<<< HEAD
+                <Node name="Index.cshtml" expanded="True" />
+=======
+>>>>>>> main
                 <Node name="Privacy.cshtml" expanded="True" />
               </Node>
             </Node>
@@ -24,7 +36,10 @@
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/tomas.klevas/Desktop/SmartCourierWEB/SmartCourier/Pages/Database.cs" relfile="Pages/Database.cs" line="52" column="9" />
+      <Breakpoint file="/Users/tomas.klevas/Desktop/SmartCourierWEB/SmartCourier/Pages/Privacy.cshtml.cs" relfile="Pages/Privacy.cshtml.cs" line="24" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.ItemProperties.SmartCourier PreferredExecutionTarget="/Applications/Safari.app" />
