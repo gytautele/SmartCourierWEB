@@ -1,0 +1,10 @@
+﻿@page
+@model SmartCourier.Pages.GalVeiksModel
+@{ ViewData["Title"] = "Gal veiks"; }
+
+<body>
+    <input type="text" name="UserName" placeholder="Enter your username" />
+    <input type="password" name="Password" placeholder="Enter your password" />
+    <input type="submit" value="Login" class="submit" onclick="Labas()" />
+    <input type="submit" value="Login" x:Name="LogIn" class="submit" onclick="Labas" />
+</body>

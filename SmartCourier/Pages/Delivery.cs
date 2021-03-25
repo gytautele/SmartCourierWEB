@@ -21,6 +21,7 @@ namespace SmartCourier.Pages
         {
             string username = Request.Form["UserName"];
             string password = Request.Form["Password"];
+            System.Diagnostics.Debug.WriteLine("duombaze suveike");
         }
 
         public void OnGet()
