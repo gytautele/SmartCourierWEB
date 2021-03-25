@@ -8,11 +8,12 @@ namespace SmartCourier.Pages
 
         public Database()
         {
-            myConnection = new SQLiteConnection("Data Souurce=database.sqlite3");
+            myConnection = new SQLiteConnection("Data Source=database.sqlite3");
             System.Diagnostics.Debug.WriteLine("Susikure");
 
             if (!File.Exists("./database.sqlite3"))
             {
+                System.Diagnostics.Debug.WriteLine("neegzistuoja");
                 SQLiteConnection.CreateFile("database.sqlite3");
             }
         }
@@ -21,6 +22,7 @@ namespace SmartCourier.Pages
         {
             if (myConnection.State != System.Data.ConnectionState.Open)
             {
+                System.Diagnostics.Debug.WriteLine("Open");
                 myConnection.Open();
             }
         }
@@ -50,6 +52,7 @@ namespace SmartCourier.Pages
 
         public bool LogIn(string username, string password)
         {
+            System.Diagnostics.Debug.WriteLine("Loginas");
             string query = "SELECT eMail, password FROM User";
             SQLiteCommand myCommand = new SQLiteCommand(query, myConnection);
             SQLiteDataReader result = myCommand.ExecuteReader();
