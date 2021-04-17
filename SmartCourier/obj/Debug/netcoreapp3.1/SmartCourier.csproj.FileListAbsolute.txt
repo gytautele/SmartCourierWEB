@@ -264,3 +264,4 @@ C:\Users\Andrius\Desktop\SmartCourierWEB\SmartCourier\obj\Debug\netcoreapp3.1\Sm
 C:\Users\Andrius\Desktop\SmartCourierWEB\SmartCourier\obj\Debug\netcoreapp3.1\SmartCourier.pdb
 C:\Users\Andrius\Desktop\SmartCourierWEB\SmartCourier\obj\Debug\netcoreapp3.1\SmartCourier.genruntimeconfig.cache
 C:\Users\Andrius\Desktop\SmartCourierWEB\SmartCourier\obj\Debug\netcoreapp3.1\Razor\Pages\Login.cshtml.g.cs
+C:\Users\Andrius\Desktop\SmartCourierWEB\SmartCourier\obj\Debug\netcoreapp3.1\Razor\Pages\Management.cshtml.g.cs

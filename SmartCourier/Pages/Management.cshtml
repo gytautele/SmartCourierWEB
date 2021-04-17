@@ -1,0 +1,35 @@
+﻿@page
+@model PrivacyModel
+@{ ViewData["Title"] = ""; }
+<h1>@ViewData["Title"]</h1>
+
+<div class="parallax-content baner-content" id="home">
+    <span><em>Manage</em> your dispatch</span>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="contact-form">
+                    <div class="row">
+                        <form id="contact" action="" method="post">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <fieldset>
+                                        <input name="dispatch_id" type="email" class="form-control" id="email" placeholder="Dispatch ID" required="">
+                                    </fieldset>
+                                </div>
+                                <div class="col-md-12">
+                                    <fieldset>
+                                        <button type="submit" id="form-submit" class="btn">Manage</button>
+                                    </fieldset>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
