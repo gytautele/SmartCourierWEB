@@ -1150,24 +1150,26 @@
     ]
   },
   "packageFolders": {
-    "/Users/tomasklevas/.nuget/packages/": {}
+    "C:\\Users\\Andrius\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/tomasklevas/Desktop/Univeras/SmartCourierWEB/SmartCourier/SmartCourier.csproj",
+      "projectUniqueName": "C:\\Users\\Andrius\\Desktop\\SmartCourierWEB\\SmartCourier\\SmartCourier.csproj",
       "projectName": "SmartCourier",
-      "projectPath": "/Users/tomasklevas/Desktop/Univeras/SmartCourierWEB/SmartCourier/SmartCourier.csproj",
-      "packagesPath": "/Users/tomasklevas/.nuget/packages/",
-      "outputPath": "/Users/tomasklevas/Desktop/Univeras/SmartCourierWEB/SmartCourier/obj/",
+      "projectPath": "C:\\Users\\Andrius\\Desktop\\SmartCourierWEB\\SmartCourier\\SmartCourier.csproj",
+      "packagesPath": "C:\\Users\\Andrius\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Andrius\\Desktop\\SmartCourierWEB\\SmartCourier\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/tomasklevas/.config/NuGet/NuGet.Config"
+        "C:\\Users\\Andrius\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -1209,16 +1211,8 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.201/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file /Users/tomasklevas/Desktop/Univeras/SmartCourierWEB/SmartCourier/obj/project.nuget.cache : Unexpected character encountered while parsing value: <. Path '', line 0, position 0."
-    }
-  ]
+  }
 }

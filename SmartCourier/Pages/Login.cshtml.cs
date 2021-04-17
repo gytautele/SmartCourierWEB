@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace SmartCourier.Pages
 {
-    public class GalVeiksModel : PageModel
+    public class LoginModel : PageModel
     {
         public void OnGet()
         {
