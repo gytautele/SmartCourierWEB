@@ -10,6 +10,7 @@ namespace SmartCourier.Pages
         {
             myConnection = new SQLiteConnection("Data Source=database.sqlite3");
             System.Diagnostics.Debug.WriteLine("Susikure");
+            
 
             if (!File.Exists("./database.sqlite3"))
             {
@@ -37,7 +38,7 @@ namespace SmartCourier.Pages
 
         public SQLiteDataReader select ()
         {
-            string query = "SELECT * FROM albms";
+            string query = "SELECT * FROM Package";
             SQLiteCommand myCommand = new SQLiteCommand(query, myConnection);
             SQLiteDataReader result = myCommand.ExecuteReader();
             return result;
@@ -46,6 +47,13 @@ namespace SmartCourier.Pages
         public void insert(string username, string password)
         {
             string query = "INSERT INTO albums ('title, 'artist') VALUES (@username, @password)";
+            SQLiteCommand myCommand = new SQLiteCommand(query, myConnection);
+            var result = myCommand.ExecuteNonQuery();
+        }
+
+        public void update(string session, string username)
+        {
+            string query = "UPDATE User SET Session=@session WHERE eMail=@username";
             SQLiteCommand myCommand = new SQLiteCommand(query, myConnection);
             var result = myCommand.ExecuteNonQuery();
         }
