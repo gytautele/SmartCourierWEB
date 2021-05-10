@@ -8,24 +8,39 @@ using System.Threading.Tasks;
 
 namespace SmartCourier.Pages
 {
-    public class PrivacyModel2 : PageModel
+    public class ManagementModel : PageModel
     {
+
         private readonly ILogger<PrivacyModel> _logger;
 
-        public PrivacyModel2(ILogger<PrivacyModel> logger)
+        public ManagementModel(ILogger<PrivacyModel> logger)
         {
             _logger = logger;
         }
 
-        protected void LogInButton(object sender, EventArgs e)
-        {
-            string username = Request.Form["UserName"];
-            string password = Request.Form["Password"];
-            System.Diagnostics.Debug.WriteLine("duombaze suveike");
-        }
-
         public void OnGet()
         {
+            if (Globals.username == null)
+            {
+                Response.Redirect("Privacy");
+            }
+        }
+
+        public IActionResult OnPost()
+        {
+            Database databaseObject = new Database();
+            databaseObject.OpenConnection();
+            string idData = Request.Form["dispatch_id_data"];
+            System.Diagnostics.Debug.WriteLine("Data");
+            var data = databaseObject.select();
+            while (data.Read())
+            {
+                if (data.GetInt32(0) == Int32.Parse(idData))
+                {
+                    System.Diagnostics.Debug.WriteLine("ID: " + data.GetInt32(0) + " Time Chosen: " + data.GetInt32(2) + " Price: " + data.GetInt32(3) + " Status " + data.GetString(5));
+                }
+            }
+            return null;
         }
     }
 }
