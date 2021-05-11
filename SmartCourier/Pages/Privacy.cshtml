@@ -4,7 +4,8 @@
 <h1>@ViewData["Title"]</h1>
 
 <body>
-    <script language="C#" runat="server">void LogInButton(Object sender, EventArgs e)
+    <script language="C#" runat="server">
+    void LogInButton(Object sender, EventArgs e)
         {
             System.Diagnostics.Debug.WriteLine("duombaze suveike");
         }</script>
@@ -28,11 +29,11 @@
                                     <div class="col-md-12">
                                         <fieldset>
                                             <form id="login" method="post">
-                                                <button type="submit" value="Login" class="submit" />
+                                                <button type="submit" value="Login" class="submit" style="padding-top: 15px; padding-bottom: 15px;">Submit</button>
                                             </form>
                                         </fieldset>
                                         <fieldset>
-                                            <button type="submit" id="form-submit" class="btn">Forgot Password</button>
+                                            <button type="submit" id="form-submit" class="btn" style="margin-top: 10px">Forgot Password</button>
                                         </fieldset>
                                     </div>
                                 </div>
