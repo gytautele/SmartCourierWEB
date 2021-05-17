@@ -42,7 +42,7 @@ namespace SmartCourier.Pages
                 if (databaseObject.LogIn(username, password))
                 {
                     //databaseObject.update("True", Globals.username);
-                    Response.Redirect("Delivery");
+                    Response.Redirect("Management");
                 }
                 else
                 {

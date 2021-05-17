@@ -36,7 +36,7 @@ namespace SmartCourier.Pages
             double y = 0;
             while (data.Read())
             {
-                if (data.GetInt32(0) == Int32.Parse(idMap))
+                //if (data.GetInt32(0) == Int32.Parse(idMap))
                 {
                     x = data.GetDouble(6);
                     y = data.GetDouble(7);

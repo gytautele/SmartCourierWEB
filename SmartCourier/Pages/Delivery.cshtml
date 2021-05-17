@@ -4,28 +4,34 @@
 <h1>@ViewData["Title"]</h1>
 
 <div class="parallax-content baner-content" id="home">
-    <span><em>Search</em> your dispatch</span>
+    <span><em>Contact</em> Us</span>
     <div class="container">
         <div class="row">
             <div class="col-md-6">
-                <div class="contact-form">
+                <form id="contact" action="" method="post">
                     <div class="row">
-                        <form id="contact" action="" method="post">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <fieldset>
-                                        <input name="dispatch_id" class="form-control" placeholder="Dispatch ID" required="">
-                                    </fieldset>
-                                </div>
-                                <div class="col-md-12">
-                                    <form method="post">
-                                        <button type="submit" name="search" id="form-submit" class="btn">Search</button>
-                                    </form>
-                                </div>
-                            </div>
-                        </form>
+                        <div class="col-md-12">
+                            <fieldset>
+                                <input name="name" type="text" class="form-control" id="name" placeholder="Your name..." required="">
+                            </fieldset>
+                        </div>
+                        <div class="col-md-12">
+                            <fieldset>
+                                <input name="email" type="email" class="form-control" id="email" placeholder="Your email..." required="">
+                            </fieldset>
+                        </div>
+                        <div class="col-md-12">
+                            <fieldset>
+                                <textarea name="message" rows="6" class="form-control" id="message" placeholder="Your message..." required=""></textarea>
+                            </fieldset>
+                        </div>
+                        <div class="col-md-12">
+                            <fieldset>
+                                <button type="submit" id="form-submit" class="btn">Send Message</button>
+                            </fieldset>
+                        </div>
                     </div>
-                </div>
+                </form>
             </div>
             <div class="col-md-6">
                 <div class="map">
