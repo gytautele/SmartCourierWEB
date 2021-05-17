@@ -276,3 +276,4 @@ C:\Users\Andrius\Desktop\SmartCourierWEB\SmartCourier\obj\Debug\netcoreapp3.1\Sm
 C:\Users\Andrius\Desktop\SmartCourierWEB\SmartCourier\obj\Debug\netcoreapp3.1\SmartCourier.dll
 C:\Users\Andrius\Desktop\SmartCourierWEB\SmartCourier\obj\Debug\netcoreapp3.1\SmartCourier.pdb
 C:\Users\Andrius\Desktop\SmartCourierWEB\SmartCourier\obj\Debug\netcoreapp3.1\SmartCourier.genruntimeconfig.cache
+C:\Users\Andrius\Desktop\SmartCourierWEB\SmartCourier\obj\Debug\netcoreapp3.1\SmartCourier.csproj.ResolveComReference.cache

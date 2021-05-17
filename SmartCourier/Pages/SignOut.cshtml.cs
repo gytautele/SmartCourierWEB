@@ -26,11 +26,13 @@ namespace SmartCourier.Pages
             {
                 Response.Redirect("Privacy");
             }
+
         }
 
         public IActionResult OnPost()
         {
             Globals.username = null;
+            Response.Redirect("Index");
             return null;
         }
 
