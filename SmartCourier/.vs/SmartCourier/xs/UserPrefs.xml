@@ -1,11 +1,11 @@
 ﻿<Properties StartupConfiguration="{8DACDEB6-3545-4859-A6BB-95B3972B321B}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Pages/Privacy.cshtml.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Pages/ForgotPassword.cshtml.cs">
     <Files>
-      <File FileName="Pages/Database.cs" Line="15" Column="14" />
-      <File FileName="Pages/Privacy.cshtml.cs" Line="26" Column="53" />
-      <File FileName="Pages/Privacy.cshtml" Line="29" Column="41" />
-      <File FileName="Pages/Kazkas.cshtml" Line="21" Column="57" />
-      <File FileName="Pages/Kazkas.cshtml.cs" Line="25" Column="10" />
+      <File FileName="Pages/Database.cs" Line="47" Column="46" />
+      <File FileName="Pages/Management.cshtml.cs" Line="52" Column="10" />
+      <File FileName="Pages/Management.cshtml" Line="18" Column="33" />
+      <File FileName="Pages/Privacy.cshtml" Line="43" Column="73" />
+      <File FileName="Pages/ForgotPassword.cshtml.cs" Line="42" Column="42" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -13,10 +13,15 @@
           <Node name="SmartCourier" expanded="True">
             <Node name="SmartCourier" expanded="True">
               <Node name="Pages" expanded="True">
-                <Node name="Delivery.cshtml" expanded="True" />
-                <Node name="Privacy.cshtml" expanded="True">
-                  <Node name="Privacy.cshtml.cs" selected="True" />
+                <Node name="Shared" expanded="True" />
+                <Node name="DispatchAdd.cshtml" expanded="True" />
+                <Node name="ForgotPassword.cshtml" expanded="True">
+                  <Node name="ForgotPassword.cshtml.cs" selected="True" />
                 </Node>
+                <Node name="Management.cshtml" expanded="True" />
+                <Node name="Privacy.cshtml" expanded="True" />
+                <Node name="Register.cshtml" expanded="True" />
+                <Node name="SignOut.cshtml" expanded="True" />
               </Node>
             </Node>
           </Node>

@@ -30,6 +30,7 @@ namespace SmartCourier.Pages
 
         public IActionResult OnPost()
         {
+            System.Diagnostics.Debug.WriteLine("Ka?");
             //čia išvedimas ar kodas
             databaseObject.OpenConnection();
             string username = Request.Form["email"];

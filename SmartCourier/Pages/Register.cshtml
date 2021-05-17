@@ -1,0 +1,63 @@
+﻿@page
+@model RegisterhModel
+@{ ViewData["Title"] = ""; }
+<h1>@ViewData["Title"]</h1>
+
+<div class="parallax-content contact-content" id="contact-us">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="contact-form">
+                    <div class="row">
+                        <form id="contact" action="" method="post">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <fieldset>
+                                        <input name="firstName" type="text" class="form-control" id="name" placeholder="First Name" required="">
+                                    </fieldset>
+                                </div>
+                                <div class="col-md-12">
+                                    <fieldset>
+                                        <input name="lastName" type="text" class="form-control" id="name" placeholder="Last Name" required="">
+                                    </fieldset>
+                                </div>
+                                <div class="col-md-12">
+                                    <fieldset>
+                                        <input name="address" type="text" class="form-control" id="name" placeholder="Address" required="">
+                                    </fieldset>
+                                </div>
+                                <div class="col-md-12">
+                                    <fieldset>
+                                        <input name="postal" type="text" class="form-control" id="email" placeholder="Postal code" required="">
+                                    </fieldset>
+                                </div>
+                                <div class="col-md-12">
+                                    <fieldset>
+                                        <input name="country" type="text" class="form-control" id="email" placeholder="Country" required="">
+                                    </fieldset>
+                                </div>
+                                <div class="col-md-12">
+                                    <fieldset>
+                                        <input name="eMail" type="email" class="form-control" id="email" placeholder="Email" required="">
+                                    </fieldset>
+                                </div>
+                                <div class="col-md-12">
+                                    <fieldset>
+                                        <input name="password" type="password" class="form-control" id="message" placeholder="Password" required="">
+                                    </fieldset>
+                                </div>
+                                <div class="col-md-12">
+                                    <fieldset>
+                                        <form method="post">
+                                            <button type="submit" id="form-submit" class="btn">Register</button>
+                                        </form>
+                                    </fieldset>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
