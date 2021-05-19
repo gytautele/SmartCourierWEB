@@ -15,7 +15,7 @@ namespace SmartCourier.Pages
     public class ManagementModel : PageModel
     {
         private readonly ILogger<PrivacyModel> _logger;
-
+        public String YourText {get;set;}
         public ManagementModel(ILogger<PrivacyModel> logger)
         {
             _logger = logger;
@@ -47,50 +47,53 @@ namespace SmartCourier.Pages
             }
             return null;
         }
-
-        public void Table ()
+        public void Table()
         {
-        //    databaseObject.OpenConnection();
-        //    var idData = Request.Form["html"];
-        //    //Populating a DataTable from database.
-        //    DataTable dt = databaseObject.GetData();
+            YourText = "Labas";
+            System.Windows.Forms.MessageBox.Show("My message here");
 
-        //    //Building an HTML string.
-        //    StringBuilder html = new StringBuilder();
 
-        //    //Table start.
-        //    html.Append("<table border = '1'>");
+            //    databaseObject.OpenConnection();
+            //    var idData = Request.Form["html"];
+            //    //Populating a DataTable from database.
+            //    DataTable dt = databaseObject.GetData();
 
-        //    //Building the Header row.
-        //    html.Append("<tr>");
-        //    foreach (DataColumn column in dt.Columns)
-        //    {
-        //        html.Append("<th>");
-        //        html.Append(column.ColumnName);
-        //        html.Append("</th>");
-        //    }
-        //    html.Append("</tr>");
+            //    //Building an HTML string.
+            //    StringBuilder html = new StringBuilder();
 
-        //    //Building the Data rows.
-        //    foreach (DataRow row in dt.Rows)
-        //    {
-        //        html.Append("<tr>");
-        //        foreach (DataColumn column in dt.Columns)
-        //        {
-        //            html.Append("<td>");
-        //            html.Append(row[column.ColumnName]);
-        //            html.Append("</td>");
-        //        }
-        //        html.Append("</tr>");
-        //    }
+            //    //Table start.
+            //    html.Append("<table border = '1'>");
 
-        //    //Table end.
-        //    html.Append("</table>");
+            //    //Building the Header row.
+            //    html.Append("<tr>");
+            //    foreach (DataColumn column in dt.Columns)
+            //    {
+            //        html.Append("<th>");
+            //        html.Append(column.ColumnName);
+            //        html.Append("</th>");
+            //    }
+            //    html.Append("</tr>");
 
-        //    //idData.Text = html;
+            //    //Building the Data rows.
+            //    foreach (DataRow row in dt.Rows)
+            //    {
+            //        html.Append("<tr>");
+            //        foreach (DataColumn column in dt.Columns)
+            //        {
+            //            html.Append("<td>");
+            //            html.Append(row[column.ColumnName]);
+            //            html.Append("</td>");
+            //        }
+            //        html.Append("</tr>");
+            //    }
 
-        //    //Append the HTML string to Placeholder.
-        //    //PlaceHolder1.Controls.Add(new Literal { Text = html.ToString() });
+            //    //Table end.
+            //    html.Append("</table>");
+
+            //    //idData.Text = html;
+
+            //    //Append the HTML string to Placeholder.
+            //    //PlaceHolder1.Controls.Add(new Literal { Text = html.ToString() });
         }
     }
 }
